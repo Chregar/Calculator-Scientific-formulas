@@ -3273,7 +3273,7 @@ def button_formulas():
             Button1 = Button(top_quadratic_eqn, font = ("Times New Roman",10,'bold'), bg = 'white',fg = 'indian red',text="Solve Equation",command=lambda: adding()).grid(row=4, column=1)
 
 
-            image1 = Image.open("C:\\Users\\Ahmad Shreif\\PycharmProjects\\First calculator with scientific formulas\\horizontal.PNG")
+            image1 = Image.open("C:\\Users\\Ahmad Shreif\\PycharmProjects\\Calculator-Scientific-formulas\\Source images\\horizontal.PNG")
             test = ImageTk.PhotoImage(image1)
 
             label1 = Label(top_quadratic_eqn,image=test)
@@ -3344,7 +3344,7 @@ def button_formulas():
             def popup1():
                 top_information.destroy()
 
-            login_btn = PhotoImage(file="C:\\Users\\Ahmad Shreif\\PycharmProjects\\First calculator with scientific formulas\\formulas2.PNG")
+            login_btn = PhotoImage(file="C:\\Users\\Ahmad Shreif\\PycharmProjects\\Calculator-Scientific-formulas\\Source images\\formulas2.PNG")
 
             img_label = Label(image=login_btn)
 
@@ -3431,7 +3431,7 @@ def button_formulas():
                 top_information.destroy()
 
 
-        login_btn2 = PhotoImage(file="C:\\Users\\Ahmad Shreif\\PycharmProjects\\First calculator with scientific formulas\\formulas.PNG")
+        login_btn2 = PhotoImage(file="C:\\Users\\Ahmad Shreif\\PycharmProjects\\Calculator-Scientific-formulas\\Source images\\formulas.PNG")
 
         img_label2 = Label(image=login_btn2)
 
