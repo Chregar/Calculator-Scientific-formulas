@@ -1,4 +1,4 @@
-# Calculator-Scientific-formulas
+# Calculator-Scientific-formulas (Tkinter)
 
 This calculator is my first ever built calculator using Tkinter 
 
